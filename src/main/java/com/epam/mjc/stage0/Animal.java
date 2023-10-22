@@ -12,7 +12,7 @@ public class Animal {
         }
 
 
-        public String getDescription() {
+        public String getDescription()  {
             String hello = hasFur ? "a" : "no";
             String hihi = numberOfPaws > 1 ? "s" : "";
             return "This animal is mostly " + this.color +". It has " + this.numberOfPaws +" paw" + hihi + " and " + hello + " fur.";
